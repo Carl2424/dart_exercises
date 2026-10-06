@@ -1,0 +1,7 @@
+name: dart_exercises
+description: A Dart fundamentals exercise about student income and expenses.
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
