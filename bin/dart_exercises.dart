@@ -4,9 +4,9 @@ void main() {
   double dailyPay = 521.28;
   bool boughtBreakfast = true;
 
-  double payOn4th = workDaysPerPay * dailyPay;
+  double payOn15th = workDaysPerPay * dailyPay;
   double payAtEndOfMonth = workDaysPerPay * dailyPay;
-  double grossIncome = payOn4th + payAtEndOfMonth;
+  double grossIncome = payOn15th + payAtEndOfMonth;
 
   double breakfastPerDay = boughtBreakfast ? 150.00 : 0.00;
   int totalWorkDays = workDaysPerPay * 2;
@@ -25,7 +25,7 @@ void main() {
   print('Work Hours per Day: 6 hours');
   print('Work Days per Pay: $workDaysPerPay');
   print('Daily Pay: ₱$dailyPay');
-  print('Pay on 4th: ₱$payOn4th');
+  print('Pay on 15th: ₱$payOn15th');
   print('Pay at End of Month: ₱$payAtEndOfMonth');
   print('Gross Monthly Income: ₱$grossIncome');
   print('Breakfast for me and my Girlfriend per Day: ₱$breakfastPerDay');
