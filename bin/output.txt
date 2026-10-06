@@ -1,0 +1,13 @@
+Student: Carl John
+Work: McDonald's P Campa
+Work Hours per Day: 6 hours
+Work Days per Pay: 10
+Daily Pay: ₱521.28
+Pay on 4th: ₱5212.799999999999
+Pay at End of Month: ₱5212.799999999999
+Gross Monthly Income: ₱10425.599999999999
+Breakfast for me and my Girlfriend: ₱250
+Motorcycle Gas: ₱300
+Monthly Motor Loan: ₱4200
+Remaining Money: ₱5675.5999999999985
+Has enough money remaining? true
