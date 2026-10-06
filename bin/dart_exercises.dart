@@ -8,7 +8,7 @@ void main() {
   double payAtEndOfMonth = workDaysPerPay * dailyPay;
   double grossIncome = payOn4th + payAtEndOfMonth;
 
-  double breakfastPerDay = boughtBreakfast ? 250.00 : 0.00;
+  double breakfastPerDay = boughtBreakfast ? 150.00 : 0.00;
   int totalWorkDays = workDaysPerPay * 2;
   double monthlyBreakfastCost = breakfastPerDay * totalWorkDays;
 
