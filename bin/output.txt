@@ -6,10 +6,10 @@ Daily Pay: ₱521.28
 Pay on 4th: ₱5212.799999999999
 Pay at End of Month: ₱5212.799999999999
 Gross Monthly Income: ₱10425.599999999999
-Breakfast for me and my Girlfriend per Day: ₱250
+Breakfast for me and my Girlfriend per Day: ₱150
 Total Work Days: 20
-Monthly Breakfast Cost: ₱5000
+Monthly Breakfast Cost: ₱3000
 Motorcycle Gas: ₱300
 Monthly Motor Loan: ₱4200
-Remaining Money: ₱925.5999999999985
-Has enough money remaining? false
+Remaining Money: ₱2925.5999999999985
+Has enough money remaining? true
