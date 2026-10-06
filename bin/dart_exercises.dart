@@ -8,12 +8,15 @@ void main() {
   double payAtEndOfMonth = workDaysPerPay * dailyPay;
   double grossIncome = payOn4th + payAtEndOfMonth;
 
-  double breakfastCost = boughtBreakfast ? 250.00 : 0.00;
+  double breakfastPerDay = boughtBreakfast ? 250.00 : 0.00;
+  int totalWorkDays = workDaysPerPay * 2;
+  double monthlyBreakfastCost = breakfastPerDay * totalWorkDays;
+
   double gasCost = 300.00;
   double monthlyMotorLoan = 4200.00;
 
   double remainingMoney =
-      grossIncome - breakfastCost - gasCost - monthlyMotorLoan;
+      grossIncome - monthlyBreakfastCost - gasCost - monthlyMotorLoan;
 
   bool hasEnoughMoney = remainingMoney >= 1000;
 
@@ -25,7 +28,9 @@ void main() {
   print('Pay on 4th: ₱$payOn4th');
   print('Pay at End of Month: ₱$payAtEndOfMonth');
   print('Gross Monthly Income: ₱$grossIncome');
-  print('Breakfast for me and my Girlfriend: ₱$breakfastCost');
+  print('Breakfast for me and my Girlfriend per Day: ₱$breakfastPerDay');
+  print('Total Work Days: $totalWorkDays');
+  print('Monthly Breakfast Cost: ₱$monthlyBreakfastCost');
   print('Motorcycle Gas: ₱$gasCost');
   print('Monthly Motor Loan: ₱$monthlyMotorLoan');
   print('Remaining Money: ₱$remainingMoney');
