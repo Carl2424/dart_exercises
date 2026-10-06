@@ -4,7 +4,7 @@ Subjects:Mobile Development w\lab
 Section:BSIT 3.2
 
 scenario:
-This program represents a student working at McDonald's P Campa for 6 hours per day. It calculates income received every 4th and at the end of the month, then calculates daily our breakfast expenses for me and my girlfriend, motorcycle gasoline, and the monthly motor loan.
+This program represents a student working at McDonald's P Campa for 6 hours per day. It calculates income received every 15th and at the end of the month, then calculates daily our breakfast expenses for me and my girlfriend, motorcycle gasoline, and the monthly motor loan.
 
 Dart Concepts Demonstrated
 
